@@ -17,17 +17,6 @@ namespace Tests
         [TestInitialize]
         public void Setup()
         {
-            //// todo: solve auto registering
-            //UnitConvertorRepository.AddConvertableUnit(new MeterUnit());
-            //UnitConvertorRepository.AddConvertableUnit(new FootUnit());
-            //UnitConvertorRepository.AddConvertableUnit(new InchUnit());
-
-            //UnitConvertorRepository.AddConvertableUnit(new ByteUnit());
-            //UnitConvertorRepository.AddConvertableUnit(new BitUnit());
-
-            //UnitConvertorRepository.AddConvertableUnit(new CelsiusUnit());
-            //UnitConvertorRepository.AddConvertableUnit(new FahrenheitUnit());
-
             UnitConvertorRepository.RegisterAllUnits();
         }
 

@@ -60,7 +60,6 @@ namespace UnitConvertor
                 prefix = Prefix.Parse(strings[1]);
             }
 
-            // todo: fix parsing millimeter
             var inputScalar = new Scalar(inputUnit, inputSize * prefix.Size);
 
             return inputScalar;

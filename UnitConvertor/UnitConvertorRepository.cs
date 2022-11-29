@@ -12,8 +12,6 @@ namespace UnitConvertor
     {
         private static List<IUnit> convertableUnits = new();
 
-        // todo: load all units and unit types from assembly on start
-
         public static IReadOnlyList<IUnit> AvailableUnits
         {
             get
